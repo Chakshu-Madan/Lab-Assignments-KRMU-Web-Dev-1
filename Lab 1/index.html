@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Webpage</title>
+</head>
+<body>
+    <header>
+        <h1>Chakshu Madan</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hello! I'm Chakshu Madan, a web developer student. This is my personal portfolio website </p>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="Myimage.jpg" alt="Chakshu Madan" width="200" height="300">
+            <p>I am passionate about learning web development and building creative projects.</p>
+        </section>
+        <p>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><b>Project 1:</b> User Form - A form webpage with fields like name, email and message for practicing form handling.</li>
+                <li><b>Project 2:</b> Portfolio website - A personal one page website t showcase your bio, skills and contact details.</li>
+                <li><b>Project 3:</b> Calculator - A simple calculator to do all basic calculations.</li>
+                <li><b>Project 4:</b> Medium Clone - A simple blog layout that looks like Medium, built only with HTML.</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="3">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea><br>
+                <br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+</body>
+</html>
