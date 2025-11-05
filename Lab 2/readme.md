@@ -1,0 +1,1 @@
+All sections are styled
